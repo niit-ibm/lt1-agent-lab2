@@ -791,42 +791,6 @@ with mlflow.start_run(run_name="trajectory_evaluation"):
 - [ ] Comprehensive evaluation completed
 - [ ] Results logged to MLflow with visualizations
 
----
 
-## Lab Summary and Key Takeaways
-
-### What You've Accomplished
-1. **Environment Setup**: Configured Databricks Mosaic AI environment with necessary libraries
-2. **Agent Development**: Built a functional tool-calling agent with custom tools
-3. **LLM-as-Judge Evaluation**: Implemented sophisticated evaluation using LLM judges
-4. **Trajectory Analysis**: Created comprehensive trajectory evaluation for tool-calling behavior
-
-### Key Evaluation Concepts
-- **Response Quality**: Measuring relevance, accuracy, and completeness
-- **Tool Usage Assessment**: Evaluating appropriate tool selection and usage
-- **Trajectory Analysis**: Understanding the reasoning process and decision flow
-- **Multi-dimensional Metrics**: Combining multiple evaluation approaches for comprehensive assessment
-
-### Best Practices Learned
-- Use multiple evaluation methods for comprehensive assessment
-- Capture detailed trajectories to understand agent behavior
-- Implement both automated and human-in-the-loop evaluation
-- Log all experiments and results for reproducibility
-- Consider efficiency alongside effectiveness in evaluation
-
-### Next Steps
-- Experiment with different agent architectures and tool combinations
-- Implement more sophisticated evaluation metrics
-- Scale evaluation to larger datasets
-- Integrate human feedback into the evaluation loop
-- Explore advanced trajectory optimization techniques
-
-### Additional Resources
-- [Databricks Agent Evaluation Documentation](https://docs.databricks.com/aws/en/generative-ai/agent-evaluation/)
-- MLflow Documentation for Model Evaluation
-- LangChain Agent Development Guide
-- Mosaic AI Best Practices
-
----
 
 **Lab Complete!** You now have hands-on experience with comprehensive agent evaluation using Databricks Mosaic AI.
