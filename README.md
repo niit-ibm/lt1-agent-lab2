@@ -33,7 +33,7 @@ os.environ['REPLICATE_API_TOKEN'] = 'your_token_here'
 
 # MLflow experiment setup
 mlflow.set_experiment("agent_evaluation_lab")
-
+```
 
 ### ⚙️ Step 2: Defining Functions (Tools) and TechMart Product Data Structure
 **Duration**: 10 minutes  
@@ -65,7 +65,7 @@ PRODUCTS = [
     },
     # ... 15 more products
 ]
-
+```
 **Tool Registry Implementation**:
 
 ```python
@@ -76,7 +76,7 @@ def search_products(query: str) -> str:
 @tool  
 def check_stock(product_id: str) -> str:
     """Stock status with intelligent categorization"""
-
+```
 ### 📊 Step 3: Complete Agent Evaluation Pipeline
 
 **Duration**: 15 minutes  
@@ -122,7 +122,7 @@ def check_stock(product_id: str) -> str:
 - **Toxicity and Relevance Assessment**
 - **Custom Evaluation Metrics**
 
-MLflow Evaluation Output:
+**MLflow Evaluation Output**:
 
 ```python
 FINAL EVALUATION SUMMARY:
@@ -138,6 +138,7 @@ MLflow Metrics: {
   "exact_match/v1": 0.67,
   "custom_relevance_score": 4.5
 }
+```
 
 **Learning Outcomes**:
 - MLflow evaluation framework mastery
